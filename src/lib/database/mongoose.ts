@@ -1,7 +1,7 @@
 import { channel } from "diagnostics_channel";
 import mongoose, { Mongoose } from "mongoose";
 
-const MONGODB_URL = process.env.NEXT_PUBLIC_MONGODB_URL;
+const MONGODB_URL = process.env.NEXT_MONGODB_URL;
 
 interface MongooseConnection {
   conn: Mongoose | null;
