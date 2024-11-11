@@ -1,16 +1,5 @@
 import { model, models, Schema } from "mongoose";
 
-export interface User {
-  clerkId: string;
-  username: string;
-  email: string;
-  photo: string;
-  firstName?: string;
-  lastname?: string;
-  planId: string;
-  creditBalance: Number;
-}
-
 const UserSchema = new Schema({
   clerkId: { type: String, requried: true, unique: true },
   username: { type: String, requried: true, unique: true },
