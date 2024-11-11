@@ -8,6 +8,8 @@ import { handleError } from "../utils";
 
 // CREATE
 export async function createUser(user: CreateUserParams) {
+  console.log("________________________________", user);
+
   try {
     await conenctToDatabase();
 
