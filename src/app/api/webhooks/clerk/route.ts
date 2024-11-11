@@ -63,7 +63,8 @@ export async function POST(req: Request) {
       evt.data;
     console.log(
       "______________________________________________________",
-      evt.data
+      first_name,
+      last_name
     );
 
     const user = {
