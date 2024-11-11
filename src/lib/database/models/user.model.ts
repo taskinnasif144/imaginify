@@ -6,7 +6,7 @@ const UserSchema = new Schema({
   email: { type: String, requried: true, unique: true },
   photo: { type: String, requried: true },
   firstName: { type: String },
-  lastname: { type: String },
+  lastName: { type: String },
   planId: { type: Number, default: 1 },
   creditBalance: { type: Number, default: 10 },
 });
